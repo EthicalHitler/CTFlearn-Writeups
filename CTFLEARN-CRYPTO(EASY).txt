@@ -1,0 +1,135 @@
+# CTFLEARN - ETHICALHITLER
+
+# CRYPTO - EASY
+
+1. Character Encoding(20 points):
+
+In the computing industry, standards are established to facilitate information interchanges among American coders. Unfortunately, I've made communication a little bit more difficult. Can you figure this one out? 41 42 43 54 46 7B 34 35 43 31 31 5F 31 35 5F 55 35 33 46 55 4C 7D
+
+* they are ascii characters. 
+* convert numbers into ASCII
+
+= imgae
+
+FLAG : ABCTF{45C11_15_U53FUL}
+
+---------------------------------------------------------------------------
+
+2. Base 2 2 the 6
+
+There are so many different ways of encoding and decoding information nowadays... One of them will work! Q1RGe0ZsYWdneVdhZ2d5UmFnZ3l9
+
+*Its a base64 encoding so, 
+
+FLAG : CTF{FlaggyWaggyRaggy}
+
+----------------------------------------------------------------------------
+
+3. BruXOR
+
+There is a technique called bruteforce. Message: q{vpln'bH_varHuebcrqxetrHOXEj No key! Just brute .. brute .. brute ... :D
+
+* Use cyberchef and choose XOR bruteforce
+
+FLAG :  flag{y0u_Have_bruteforce_XOR}
+
+--------------------------------------------------------------------------
+
+4. Reverse Polarity
+
+I got a new hard drive just to hold my flag, but I'm afraid that it rotted. What do I do? The only thing I could get off of it was this: 01000011010101000100011001111011010000100110100101110100010111110100011001101100011010010111000001110000011010010110111001111101
+
+* convert binary into ascii
+
+FLAG : CTF{Bit_Flippin}
+
+------------------------------------------------------------------------
+
+
+5. Vigenere Cipher
+
+
+
+The vignere cipher is a method of encrypting alphabetic text by using a series of interwoven Caesar ciphers based on the letters of a keyword.<br />
+
+I’m not sure what this means, but it was left lying around: blorpy
+
+gwox{RgqssihYspOntqpxs}
+
+cipher text = gwox{RgqssihYspOntqpxs}
+
+key = blorpy
+
+* use any online vigenere cipher decoders
+
+FLAG : flag{CiphersAreAwesome}
+
+------------------------------------------------------------------------------------
+
+
+6. Morse Code
+
+..-. .-.. .- --. ... .- -- ..- . .-.. -- --- .-. ... . .. ... -.-. --- --- .-.. -... -.-- - .... . .-- .- -.-- .. .-.. .. -.- . -.-. .... . . ...
+
+* as the name suggests , use a online morse code decoder to get the Flag.
+
+FLAG : FLAGSAMUELMORSEISCOOLBYTHEWAYILIKECHEES
+
+--------------------------------------------------------------------------------------
+
+7. HyperStream Test #2
+
+I love the smell of bacon in the morning! ABAAAABABAABBABBAABBAABAAAAAABAAAAAAAABAABBABABBAAAAABBABBABABBAABAABABABBAABBABBAABB
+
+* After some research , it is found that it is a bacon cipher
+
+FLAG : ILOUEBACONDONTYOU
+
+---------------------------------------------------------------------------------------
+
+8. Suspecious message
+
+Hello! My friend Fari send me this suspecious message: 'MQDzqdor{Ix4Oa41W_1F_B00h_m1YlqPpPP}' and photo.png. Help me decrypt this!
+
+* Its a fair play cipher. use an online tool to crack. enter the letters in the photo as a key.
+
+FLAG : CTFLEARN{PL4YF41R_1S_C00L_C1PHERRRR}
+
+-----------------------------------------------------------------------------------------
+
+9. Tone dialing
+
+
+
+At 1pm I called my uncle who was 64 years old 10 months ago, but I heard only that. Later I started thinking about the 24 hour clock.
+
+I hope you will help me solve this problem
+
+* Observe the tone sequence in the wav file
+
+FLAG : CTFlean{CRYPTOGRAPHY}
+
+----------------------------------------------------------------------------------------
+
+10. Modern Gaius Julius Caesar.
+
+
+One of the easiest and earliest known ciphers but with XXI century twist! Nobody uses Alphabet nowadays right? Why should you when you have your keyboard?
+
+BUH'tdy,|Bim5y~Bdt76yQ
+
+* look at the keyboard......After a research found that its a keyboard shift cipher.
+
+FLAG : CTFlearn{Cyb3r_Cae54r}
+
+---------------------------------------------------------------------------------------
+
+11. Covid-19
+
+
+
+In 2019 on the Earth appeard lethal Corona Virus known as Covid-19. Is January 1st 2020. The people have not any information. Somebody interrupt message transfer. He died but let us encrypted note and very important hint. First four characters in decrypted note are: 'Hope'. Are you able to help us and read whole note?
+
+Note: b"Iqsi88E0b/Ie>=`jmcj\x7fd2y5Eab5:aZy5Cq1dqrqFU\x80nlHls9;).0F"
+
+FLAG : 

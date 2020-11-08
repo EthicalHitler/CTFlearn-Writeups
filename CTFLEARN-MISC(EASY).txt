@@ -1,0 +1,85 @@
+# CTFLEARN - ETHICALHITLER
+
+# MISC - EASY
+-------------------------------------------------------------------------
+
+1. Where Can My Robot Go?
+
+Where do robots find what pages are on a website?
+
+Hint:
+
+    What does disallow tell a robot?
+
+* As the hint says, Just vist /robots.txt :)
+
+FLAG : CTFlearn{r0b0ts_4r3_th3_futur3}
+
+-------------------------------------------------------------------------
+
+2. Practice Flag
+
+Try inputting the flag: flag{CTFLearn_is_awesome}
+
+* XD nice
+
+FLAG : flag{CTFLearn_is_awesome}
+
+------------------------------------------------------------------------
+
+3. Reversal of fortune
+
+Our team of agents have been tracking a hacker that sends cryptic messages to other hackers about what he's doing. We intercepted the below message he sent recently, can you figure out what it says? He mentions his hacker name in it, that's the code you need.
+
+.nac uoy fi tIe$reveRpilF eldnah ym gnisu em egassem ,avaj yllacificeps ,gnidoc emos htiw pleh deen I ,deifitnedi tegrat txeN
+
+* Just by seeing the given text , it is clearly a mirrored text.
+
+FLAG : FlipRever$eIt
+
+---------------------------------------------------------------------
+
+4. Wikipedia
+
+Not much to go off here, but it’s all you need: Wikipedia and 128.125.52.138. 
+
+* go to the site and search for the ip
+
+* Use find option and carefully look through the document . finally under the compettion section the flag is found.
+
+FLAG : CTFlearn{cNi76bV2IVERlh97hP}
+
+-----------------------------------------------------------------------
+
+5.QR Code
+
+Do you remember something known as QR Code? Simple. Here for you : <br /> https://mega.nz/#!eGYlFa5Z!8mbiqg3kosk93qJCP-DBxIilHH2rf7iIVY-kpwyrx-0
+
+* Read the QR , Identify the encoding option , again decipher the string.
+
+FLAG : n0_body_f0rget_qr_code
+
+------------------------------------------------------------------------
+
+6. QR Code v2
+
+How well are you in the ways of the QR Code? https://mega.nz/#!JItR3aqI!QKGxexShAPt-HUU_2DAdJKUljXc69sx1fXuaGUeoKaY
+
+* Tip: Use zbartools in terminal or just scan the QR code
+
+FLAG : CTF{2_QR_4_U}
+
+------------------------------------------------------------------------
+
+7. IP Tracer
+
+Bob is an amateur hacker and has collected the following IP Address: 159.167.16.5, but Bob needs help finding where the IP Address is located. Can you help Bob find where the IP Address is located. (Type the City name)
+
+* use any online IP tracer
+
+FLAG : London
+
+-----------------------------------------------------------------------
+
+
+

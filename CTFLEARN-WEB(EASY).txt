@@ -1,0 +1,34 @@
+# CTFLEARN - ETHICALHITLER
+
+# WEB - EASY
+
+---------------------------------------------
+
+1. Basic Injection
+
+See if you can leak the whole database. The flag is in there somwhere… https://web.ctflearn.com/web4/
+
+* Use simple SQL payloads to leak the DB.
+
+FLAG: CTFlearn(th4t_is_why_you_n33d_to_sanitiz3_inputs )
+
+---------------------------------------------
+
+2. My Blog
+
+
+
+Hi, I'm Noxtal! I have hidden a flag somewhere in my Cyberworld (AKA blog)... you may find a good <strong>application</strong> for your <strong>memory</strong>. ;)
+
+Note: This is my real website (thus no deadly bug to exploit here). You might want to read some of my content (writeups, tutorials, and cheatsheets). I would be glad to receive any kind of feedback.
+
+Click here to access it, have fun checking my blog out! Cheers!
+
+Hint: replace the flag{} part with CTFlearn{}.
+
+
+* Examine the application tab and storage tab in inspect element.
+
+FLAG : CTFlearn{n7f_l0c4l_570r463_15n7_53cur3_570r463}
+
+----------------------------------------------------
